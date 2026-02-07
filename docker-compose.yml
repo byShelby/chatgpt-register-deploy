@@ -30,5 +30,5 @@ services:
 
 networks:
   app-net:
-    name: chatgpt-register-net
+    name: cgr-net
     driver: bridge
