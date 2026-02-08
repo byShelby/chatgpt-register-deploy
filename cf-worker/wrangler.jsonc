@@ -1,0 +1,23 @@
+/**
+ * Cloudflare Worker 配置
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "chatgpt-register-email",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-10-11",
+	"observability": {
+		"enabled": true
+	},
+	/**
+	 * 环境变量
+	 *
+	 * API_URL: 后端 API 地址（必填，无需认证）
+	 * TEST_API_URL: 测试环境地址（可选，同时转发）
+	 */
+	"vars": {
+		"API_URL": "https://your-domain.com/api/email/receive"
+		// "TEST_API_URL": "https://test.your-domain.com/api/email/receive"
+	}
+}

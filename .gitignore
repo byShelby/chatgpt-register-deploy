@@ -26,3 +26,10 @@ Thumbs.db
 # 临时文件
 *.tmp
 *.log
+
+# Cloudflare Worker
+cf-worker/node_modules/
+cf-worker/dist/
+cf-worker/.wrangler/
+cf-worker/.dev.vars
+cf-worker/wrangler.toml
