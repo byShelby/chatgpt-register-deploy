@@ -183,6 +183,9 @@ if [[ -n "$API_KEY" ]]; then
   sed -i.bak "s|^API_KEY=.*|API_KEY=${API_KEY}|" .env
 fi
 
+# 配置默认 License 服务器
+sed -i.bak "s|^LICENSE_SERVER_URL=.*|LICENSE_SERVER_URL=https://license.k8ray.com|" .env
+
 # 删除备份文件
 rm -f .env.bak
 
