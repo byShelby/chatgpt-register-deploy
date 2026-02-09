@@ -27,6 +27,9 @@ Thumbs.db
 *.tmp
 *.log
 
+# 视频源码
+video/
+
 # Cloudflare Worker
 cf-worker/node_modules/
 cf-worker/dist/
