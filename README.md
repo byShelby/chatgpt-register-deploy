@@ -1,8 +1,14 @@
 # ChatGPT 注册机 🚀
 
-> ChatGPT 账号自动注册与管理服务
+> ChatGPT 账号自动注册与管理服务 | [k8ray.com](https://k8ray.com)
 
 <video src="https://github.com/user-attachments/assets/a0b05d24-3f71-4c42-a159-cccb69a454e2" width="100%" autoplay muted loop></video>
+
+## 获取授权
+
+本项目需要授权后使用，访问 [k8ray.com](https://k8ray.com) 联系作者。
+
+👉 **[k8ray.com](https://k8ray.com)**
 
 ## 一键部署
 
@@ -132,9 +138,10 @@ sudo firewall-cmd --reload
 cgr logs
 ```
 
-## 问题反馈
+## 联系我们
 
-遇到问题？访问 [GitHub Issues](https://github.com/DouDOU-start/chatgpt-register-deploy/issues)
+- 🌐 官网：[k8ray.com](https://k8ray.com)（授权购买、使用文档、技术支持）
+- 🐛 Issues：[GitHub Issues](https://github.com/DouDOU-start/chatgpt-register-deploy/issues)
 
 ---
 
